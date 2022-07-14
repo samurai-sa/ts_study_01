@@ -1,14 +1,23 @@
+// =============
 // 02 : stating
+// =============
+
 // import World from "./world";
 // const root = document.getElementById("root");
 // const world = new World("TypeScript はじめまして");
 // world.sayHello(root);
 
+// =============
 // 03 : type
+// =============
+
 // import { primitiveSample } from "./basic";
 // primitiveSample();
 
+// =============
 // 04 : function & parameters
+// =============
+
 // import { logMessage, logMessage2, logMessage3, logMessage4 } from './function/basic';
 // import { isUserSignedIn, isUserSignedIn2, sum } from './function/parameters';
 
@@ -24,8 +33,19 @@
 // const getSum = sum(100, 200, 300, 1);
 // console.log('getSum', getSum);
 
+// =============
 // 05 : type
-import objectSample from './object/object';
-import typeAliasSample from './object/alias';
+// =============
+
+// import objectSample from './object/object';
+// import typeAliasSample from './object/alias';
 // objectSample();
-typeAliasSample();
+// typeAliasSample();
+
+// =============
+// 06 : array
+// =============
+import arraySample from './array/array';
+import tupleSample from './array/tuple';
+arraySample();
+tupleSample();
