@@ -9,18 +9,23 @@
 // primitiveSample();
 
 // 04 : function & parameters
-import { logMessage, logMessage2, logMessage3, logMessage4 } from './function/basic';
-import { isUserSignedIn, isUserSignedIn2, sum } from './function/parameters';
+// import { logMessage, logMessage2, logMessage3, logMessage4 } from './function/basic';
+// import { isUserSignedIn, isUserSignedIn2, sum } from './function/parameters';
 
-logMessage('hello typescript');
-logMessage2('hello typescript');
-logMessage3('hello typescript');
-logMessage4('hello typescript');
+// logMessage('hello typescript');
+// logMessage2('hello typescript');
+// logMessage3('hello typescript');
+// logMessage4('hello typescript');
 
-isUserSignedIn('abc', 'samurai-sa');
-isUserSignedIn('abcd');
-isUserSignedIn2('abc');
+// isUserSignedIn('abc', 'samurai-sa');
+// isUserSignedIn('abcd');
+// isUserSignedIn2('abc');
 
-const getSum = sum(100, 200, 300, 1);
-console.log('getSum', getSum);
+// const getSum = sum(100, 200, 300, 1);
+// console.log('getSum', getSum);
 
+// 05 : type
+import objectSample from './object/object';
+import typeAliasSample from './object/alias';
+// objectSample();
+typeAliasSample();
