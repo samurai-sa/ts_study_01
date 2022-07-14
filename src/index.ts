@@ -10,16 +10,17 @@
 
 // 04 : function & parameters
 import { logMessage, logMessage2, logMessage3, logMessage4 } from './function/basic';
-import { isUserSigendIn, isUserSigendIn2, sum } from './function/parameters';
+import { isUserSignedIn, isUserSignedIn2, sum } from './function/parameters';
 
 logMessage('hello typescript');
 logMessage2('hello typescript');
 logMessage3('hello typescript');
 logMessage4('hello typescript');
 
-isUserSigendIn('abc', 'samurai-sa');
-isUserSigendIn('abcd');
-isUserSigendIn2('abc');
+isUserSignedIn('abc', 'samurai-sa');
+isUserSignedIn('abcd');
+isUserSignedIn2('abc');
 
 const getSum = sum(100, 200, 300, 1);
 console.log('getSum', getSum);
+

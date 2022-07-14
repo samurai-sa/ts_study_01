@@ -1,5 +1,5 @@
 // オプションパラメータを使う関数
-export const isUserSigendIn = (userId: string, username?: string): boolean => {
+export const isUserSignedIn = (userId: string, username?: string): boolean => {
   if (userId === 'abc') {
     console.log('User is sigend in!!', username);
     return true;
@@ -10,7 +10,7 @@ export const isUserSigendIn = (userId: string, username?: string): boolean => {
 };
 
 // デフォルトパラメーターを使う関数
-export const isUserSigendIn2 = (userId: string, username = 'no name'): boolean => {
+export const isUserSignedIn2 = (userId: string, username = 'no name'): boolean => {
   if (userId === 'abc') {
     console.log('User is sigend in!! 3', username);
     return true;
