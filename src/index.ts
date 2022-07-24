@@ -45,7 +45,15 @@
 // =============
 // 06 : array
 // =============
-import arraySample from './array/array';
-import tupleSample from './array/tuple';
-arraySample();
-tupleSample();
+// import arraySample from './array/array';
+// import tupleSample from './array/tuple';
+// arraySample();
+// tupleSample();
+
+// =============
+// 07 : ジェネリクス と ポリモーフィズム
+// =============
+import genericsBasicSample from './generics/basic';
+import genericsAdvanceSample from './generics/advanced';
+genericsBasicSample();
+genericsAdvanceSample();
