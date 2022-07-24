@@ -3,6 +3,7 @@
 // =============
 
 // import World from "./world";
+
 // const root = document.getElementById("root");
 // const world = new World("TypeScript はじめまして");
 // world.sayHello(root);
@@ -12,6 +13,7 @@
 // =============
 
 // import { primitiveSample } from "./basic";
+
 // primitiveSample();
 
 // =============
@@ -39,6 +41,7 @@
 
 // import objectSample from './object/object';
 // import typeAliasSample from './object/alias';
+
 // objectSample();
 // typeAliasSample();
 
@@ -47,13 +50,26 @@
 // =============
 // import arraySample from './array/array';
 // import tupleSample from './array/tuple';
+
 // arraySample();
 // tupleSample();
 
 // =============
 // 07 : ジェネリクス と ポリモーフィズム
 // =============
-import genericsBasicSample from './generics/basic';
-import genericsAdvanceSample from './generics/advanced';
-genericsBasicSample();
-genericsAdvanceSample();
+// import genericsBasicSample from './generics/basic';
+// import genericsAdvanceSample from './generics/advanced';
+
+// genericsBasicSample();
+// genericsAdvanceSample();
+
+// =============
+// 08 : async
+// =============
+import callbackSample from './async/callback';
+import promiseSample from './async/promise';
+import asyncSample from './async/async';
+
+// callbackSample();
+// promiseSample();
+asyncSample();
